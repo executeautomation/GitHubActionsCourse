@@ -16,7 +16,7 @@ jobs:
       - run: echo "This repo is ${{ github.repository }} .."
       - name: Run a inline script
         run: |
-          swdfwetfwer
+          mkdir newfolder
           ls -l
         shell: bash
       - name: Run a script file from repo
