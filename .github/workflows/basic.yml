@@ -22,6 +22,7 @@ jobs:
         run: sh ./run.sh
         shell: pwsh
       - name: Execute during failure
+        if: ${{ failure() }}
         run: echo "One of the step seems failed"
         
         
