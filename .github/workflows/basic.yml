@@ -13,9 +13,8 @@ jobs:
         uses: actions/checkout@v2.4.0
       - run: echo "This repo is ${{ github.repository }} .."
       - name: Run a inline script
-        run: asdl;kfasdl;fks;adlkfl;sdkf
         run: |
-          mkdir newfolder
+          swdfwetfwer
           ls -l
         shell: bash
       - name: Run a script file from repo
